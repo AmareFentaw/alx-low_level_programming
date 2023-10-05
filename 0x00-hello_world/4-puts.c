@@ -1,11 +1,11 @@
-
-/**
- *A program to print a dexcription  followed by a new line.
- *Return: (0) (done)
- */
 #include <stdio.h>
+/**
+ * main a program that prints a line with puts function
+ *
+ * Return: 0 (Success)
+ */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle,");
+puts("\"Programming is like building a multilingual puzzle");
 return (0);
 }
