@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - a program prints lines using printf function.
+ * main - A  program prints lines using printf function.
  * Return: 0 (Succes)
  */
 int main(void);
