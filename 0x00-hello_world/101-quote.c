@@ -1,7 +1,9 @@
-#!/bin/bash
-int main()
-{
-// write the string to the standard error. write(STDERR_FILENO, "and that piece of art is useful" - Dora Korpar, 2015-10-19\n",49);
-// Return 1.
- return 1;
+#include <unistd.h>
+
+int main() {
+  // Write the string to standard error.
+  write(STDERR_FILENO, "that piece of art is useful\n", 27);
+
+  // Return 1.
+  return 1;
 }
