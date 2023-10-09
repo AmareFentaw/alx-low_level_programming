@@ -1,8 +1,8 @@
-#include <stdil.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * Return: 0
  */
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 	if (g == 98 && q == 99)
 	continue;
 	putchar(',');
-	putchar(' ;);
+	putchar(' ');
 	}
 	}
 	putchar('\n');
