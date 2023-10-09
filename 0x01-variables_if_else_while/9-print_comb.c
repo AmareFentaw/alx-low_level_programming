@@ -6,7 +6,7 @@
  */
 
 int main(void)
-{
+	{
 	int h;
 
 	for (h = 0; h < 100; h++)
@@ -20,4 +20,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+	}
