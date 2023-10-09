@@ -3,7 +3,7 @@
 /**
  * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
  * followd by a newline, to standard error.
- * Retur: Always 1.
+ * Return: Always 1.
  */
 
 
