@@ -15,6 +15,7 @@ int main(void)
 	{
 	putchar((g / 10) + '0');
 	putchar((g % 10) + '0');
+	putchar(' ');
 	putchar((q / 10) + '0');
 	putchar((q % 10) + '0');
 	if (g == 98 && q == 99)
