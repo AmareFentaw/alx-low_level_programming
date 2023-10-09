@@ -1,9 +1,11 @@
-#include <unistd.h>
-
-int main() {
-  // Write the string to standard error.
-  write(STDERR_FILENO, "that piece of art is useful\n", 27);
-
-  // Return 1.
-  return 1;
+#include <uistd.h>
+/**
+ * main - prints "and that piece of art is useful" - Dora Korpar, 2015-10-19",
+ * followd by a newline. to standard error.
+ * Retur: Always 1
+ */
+int main(void)
+{
+	write(2, "and that piece of art is useful\"  - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
