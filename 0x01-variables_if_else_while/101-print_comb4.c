@@ -8,21 +8,21 @@
  */
 int main(void)
 {
-	int d, p, q;
+	int k, m, q;
 
-	for (d = '0'; d < '9'; d++)
+	for (k = '0'; k <'9'; k++)
 	{
 
-	for (p = d + 1; p <= '9'; p++)
+	for (m = k + 1; m <= '9'; m++)
 	{
-	for (q = d + 1; q <= '9'; q++)
+	for (q = m + 1; q <= '9'; q++)
 	{
-	if ((p != d) != q)
+	if ((m != k) != q)
 	{
-	putchar(d);
-	putchar(p);
+	putchar(k);
+	putchar(m);
 	putchar(q);
-	if (d == '7' && p == '8')
+	if (k == '7' && m == '8')
 	continue;
 	putchar(',');
 	putchar(' ');
