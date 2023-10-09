@@ -5,21 +5,18 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-{
-	int h, j;
+	{
+	int h;
 
-	h = 0;
-	while
-		(h < 10) {
-			putchar(h + '0');
-			h++;
+	for (h = 0; h < 100; h++)
+	{
+		putchar(h + '0');
+		if (a < 99)
+		{
+			putchar(',');
+			putchar(' ');
 		}
-	j = 'a';
-	while
-		(j <= 'f') {
-			putchar(j);
-			j++;
-		}
+	}
 	putchar('\n');
 	return (0);
-}
+	}
