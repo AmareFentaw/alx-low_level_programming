@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - Enetry point
  *
@@ -8,15 +11,20 @@ int main(void)
 {
 	int l, k;
 
-	for (l = 0; l <= 9; l++)
+	for (l = '0'; l < '9'; l++)
 	{
-		for (k = l + 1; k <= 9; k++)
-		{
-			putchar(48 + l);
-			putchar(48 + k);
-			putchar(',');
-			putchar(' ');
-		}
+	for (k = l + 1; k <= '9'; k++)
+	{
+	if (k != l)
+	{
+
+	putchar(l);
+	putchar(k);
+	if (l == '8' && k == '9')
+	continue;
+	putchar(',');
+	putchar(' ');
+	}
 	}
 	putchar('\n');
 	return (0);
