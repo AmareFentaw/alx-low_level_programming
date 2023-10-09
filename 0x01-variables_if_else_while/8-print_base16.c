@@ -9,7 +9,7 @@ int main(void)
 	char j;
 
 	int h;
-	
+
 	j = 'a';
 	h = 0;
 	while
