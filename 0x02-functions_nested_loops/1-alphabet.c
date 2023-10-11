@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alohabet - Entry point
+ * print_alphabet - Entry point
  * Return: void
  */
-int print_alohabet(void)
+int print_alphabet(void)
 {
 	char t;
 
