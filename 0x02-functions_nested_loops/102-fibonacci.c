@@ -7,7 +7,7 @@ int fibonacci(void)
 {
 	int m = 0;
 
-	long k = m, l = 2;
+	long k = 1, l = 2;
 
 	while (m < 50)
 	{
