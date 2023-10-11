@@ -7,6 +7,7 @@
 int main(void)
 {
 	int y, r = 0;
+
 	while (y < 1024)
 	{
 	if ((y % 3 == 0) || (y % 5 == 0))
