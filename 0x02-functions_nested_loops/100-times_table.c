@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_times_table - Time table.
- * sratrt wit 0.
+ * sratrt wit .
  * @n: The value of time table.
  */
 void print_times_table(int n)
@@ -16,7 +16,7 @@ void print_times_table(int n)
 	for (b = 1; b <= n; b++)
 	{
 	_putchar(',');
-	_putchar(',');
+	_putchar(' ');
 	c = a * b;
 	if (c <= 99)
 	_putchar(' ');
