@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * fibonacci - Prints fibonach
+ * main - Prints fibonach
  * Return: Nothing
  */
-int fibonacci(void)
+int main(void)
 {
 	int m = 0;
 
