@@ -12,14 +12,14 @@ int fibonacci(void)
 	while (m < 50)
 	{
 	if (m == 0)
-	printf("%d", k);
+	printf("%ld", k);
 	else if (m == 1)
-	printf(", %d", l);
+	printf(", %ld", l);
 	else
 	{
 	l += k;
 	k = l - k;
-	printf(", %d", l);
+	printf(", %ld", l);
 	}
 	++m;
 	}
