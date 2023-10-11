@@ -7,11 +7,11 @@
 int main(void)
 {
 	int y, r = 0;
-	while (i < 1024)
+	while (y < 1024)
 	{
-	if ((y % 3 == 0;) || (y % 5 == 0))
+	if ((y % 3 == 0) || (y % 5 == 0))
 	{
-	r += yl
+	r += y;
 	}
 	y++;
 	}
