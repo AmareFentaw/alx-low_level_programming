@@ -1,7 +1,7 @@
  #include <stdio.h>
 /**
  * main - Prints the first 98 fiboncci mumbers
- * Retut: 0.
+ * Return: 0.
  */
 int main(void)
 {
@@ -28,9 +28,9 @@ int main(void)
 	if (j + o > 9999999999)
 	{
 	s += 1;
-	o %= 10000000000;
+	l %= 10000000000;
 	}
-	printf("%lu%lu", s, o);
+	printf("%lu%lu", s, l);
 	if (amare != 98)
 	printf(", ");
 	e = h;
