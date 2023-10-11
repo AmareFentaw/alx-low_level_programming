@@ -6,7 +6,7 @@
 int main(void)
 {
 	int amare;
-	unsigned long a = 0, m = 1, r = sum;
+	unsigned long a = 0, m = 1, sum;
 	unsigned long e, j, h, o;
 	unsigned long s, l;
 
@@ -15,7 +15,7 @@ int main(void)
 	sum = a + m;
 	printf("%ld, ", sum);
 	a = m;
-	m = aum;
+	m = sum;
 	}
 	e = a / 10000000000;
 	h = m / 10000000000;
