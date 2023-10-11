@@ -23,6 +23,6 @@ int fibonacci(void)
 	}
 	++m;
 	}
-	printf('\n')'
+	printf('\n');
 	return (0);
 }
