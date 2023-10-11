@@ -4,7 +4,7 @@
  * jack_buare - prints out every minute of the day
  * Retur: ...
  */
-void jack_buare(void)
+void jack_buaer(void)
 {
 	int g, h, j, k;
 
