@@ -17,10 +17,10 @@ void print_number(int n)
 	{
 	n *= -1;
 	s = n;
-	_putchar('-');
+	putchar('-');
 	}
 	s /= 10;
 	if (s != 0)
 	print_number(s);
-	_putchar((unsigned int) n % 10 + '0');
+	putchar((unsigned int) n % 10 + '0');
 }
