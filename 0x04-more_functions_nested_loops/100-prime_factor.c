@@ -11,7 +11,7 @@ int main(void)
 {
 
 	long a, maxf;
-	
+
 	long number = 612852475143;
 	double square = sqrt(number);
 
