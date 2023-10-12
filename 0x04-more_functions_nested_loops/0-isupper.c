@@ -1,4 +1,4 @@
-#include "maim.h"
+#include "main.h"
 /**
  * _isupper - To ientify weather a letter is upper or not
  * @q: The number to be chaked
