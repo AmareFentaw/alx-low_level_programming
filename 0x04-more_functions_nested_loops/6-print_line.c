@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_line - Draws a straight line according to parameter
- * @m: The number of lines to draw
- * Return: empty
+ * print_line - Draws a straight line based on parameter
+ * @m: The number of lines to br drown
+ * Return: nothing
  */
 
 void print_line(int m)
