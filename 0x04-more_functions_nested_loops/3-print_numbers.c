@@ -1,16 +1,20 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * print_numbers - To print numbers form 0 to 9
- * Return: The numbers from 0 t0 9
+ * print_numbers - Print the numbers since 0 up to 9
+ * Return: The numbers since 0 up to 9
  */
+
 void print_numbers(void)
+
 {
-	int n;
 
+	int m;
 
-	for (n = 0; n <= 9; n++)
+	for (m  = 0; m <= 9; m++)
 	{
-	_putchar(n + '0');
+	putchar(m + '0');
 	}
-	_putchar('\n');
+	putchar('\n');
 }
