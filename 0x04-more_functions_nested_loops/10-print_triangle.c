@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_triangle - Prints a triangle of squares
  * @size: The size of the squares triangle
@@ -14,21 +14,21 @@ void print_triangle(int size)
 
 	if (size <= 0)
 	{
-	_putchar('\n');
+	putchar('\n');
 	}
 	else
 	{
 	for (a = 0; a < size; a++)
 	{
-	for (b = size a; b > 1; b--)
+	for (b = size - a; b > 1; b--)
 	{
-	_putchar(32);
+	putchar(32);
 	}
 	for (c = 0; c <= a; c++)
 	{
-	_putchar(35);
+	putchar(35);
 	}
-	_putchar('\n');
+	putchar('\n');
 	}
 	}
 }
