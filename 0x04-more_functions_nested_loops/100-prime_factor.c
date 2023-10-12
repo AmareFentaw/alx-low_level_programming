@@ -11,8 +11,9 @@ int main(void)
 {
 
 	long a, maxf;
+	
+	long number = 612852475143;
 	double square = sqrt(number);
-	long umber = 612852475143;
 
 	for (a = 1; a <= square; a++)
 	{
