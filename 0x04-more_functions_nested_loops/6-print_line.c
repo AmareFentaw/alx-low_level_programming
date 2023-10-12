@@ -19,7 +19,7 @@ void print_line(int m)
 	}
 	else
 	{
-	for (n = 0;n < m; x++)
+	for (n = 0; n < m; x++)
 	{
 	putchar(95);
 	}
