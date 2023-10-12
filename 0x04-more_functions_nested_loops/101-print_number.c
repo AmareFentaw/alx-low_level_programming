@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-
+#include <unistd.h>
 /**
  * print_number - Prints an integer.
  * @n: The number to be printed.
@@ -17,10 +16,10 @@ void print_number(int n)
 	{
 	n *= -1;
 	s = n;
-	putchar('-');
+	_putchar('-');
 	}
 	s /= 10;
 	if (s != 0)
 	print_number(s);
-	putchar((unsigned int) n % 10 + '0');
+	_putchar((unsigned int) n % 10 + '0');
 }
