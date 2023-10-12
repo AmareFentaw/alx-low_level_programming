@@ -15,7 +15,7 @@ void print_line(int m)
 
 	if (m <= 0)
 	{
-	_putchar('\n');
+	putchar('\n');
 	}
 	else
 	{
