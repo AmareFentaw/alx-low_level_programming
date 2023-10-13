@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * positive_or _negatve - identifiy weather it is negative or positive.
+ * main - identifiy weather it is negative or positive.
  * Return: 0
  */
-int positive_or _negatve(void)
+int main(void)
 {
 	int l;
 
