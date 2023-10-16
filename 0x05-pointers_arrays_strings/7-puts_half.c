@@ -23,6 +23,18 @@ void puts_half(char *str)
 	{
 	putchar(str[m]);
 	}
-	putchar('\n');
+}
+/**
+ * main - Entry point of the program.
+ *
+ * Return: 0 on success, or a non-zero value on failure.
+ */
+int main(void)
+{
+	char str[] = "erton";
+
+	puts_half(str);
+
+	return (0);
 }
 
