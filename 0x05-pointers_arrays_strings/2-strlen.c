@@ -2,12 +2,12 @@
 
 /**
  * _strlen - to determine or tell the lengthe of charactor.
- * @s: the character to be measured.
+ * @str: the character to be measured.
  * int _strlen: the length of the string.
  * Return: the length of the character.
  */
 
-int _strlen(const char *s)
+int _strlen(const char *str)
 {
 	int length = 0;
 
