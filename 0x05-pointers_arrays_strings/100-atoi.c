@@ -28,7 +28,7 @@ int _atoi(char *s)
 	{
 	break;
 	}
-	c++;
+	b++;
 	}
 	eden *= cut;
 	return (eden);
