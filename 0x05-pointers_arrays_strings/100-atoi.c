@@ -21,8 +21,8 @@ int _atoi(char *s)
 	while (s[b] >= 48 && s[b] <= 57)
 	{
 	amare  = 1;
-	eden  = (eden * 10) + (s[b] - '0'0;
-	c++;
+	eden  = (eden * 10) + (s[b] - '0');
+	b++;
 	}
 	if (amare == 1)
 	{
