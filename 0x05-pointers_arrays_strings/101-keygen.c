@@ -23,7 +23,7 @@ int main(void)
 
 	if (s != 2772)
 	{
-		amare = (s - 2772) / 2);
+		amare = (s - 2772) / 2;
 		john = (s - 2772) / 2;
 
 		if ((s - 2772) % 2 != 0)
