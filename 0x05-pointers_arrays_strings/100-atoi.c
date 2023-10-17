@@ -16,7 +16,7 @@ int _atoi(char *s)
 	{
 	if (s[b] == 45)
 	{
-	main *= -1;
+	cut *= -1;
 	}
 	while (s[b] >= 48 && s[b] <= 57)
 	{
