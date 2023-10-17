@@ -8,8 +8,7 @@
 int main(void)
 {
 	char pass[84];
-	int i = 0, s = 0, amare, john;
-
+	int i = 0, s = 0, amare;
 	srand(time(0));
 
 	while (s < 2772)
@@ -24,7 +23,6 @@ int main(void)
 	if (s != 2772)
 	{
 		amare = (s - 2772) / 2;
-		john = (s - 2772) / 2;
 
 		if ((s - 2772) % 2 != 0)
 
