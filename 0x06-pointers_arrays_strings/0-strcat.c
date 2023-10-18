@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * char *_strcat - cincatenate charactors
  * @dest: one character to be concatenated
