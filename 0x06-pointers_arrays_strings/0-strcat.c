@@ -7,15 +7,22 @@
  * Return: concatenated charactors
  */
 char *_strcat(char *dest, char *src)
+
 {
-	while (*dest != '\0')
+	int amare = 0, a;
+
+	while (dest[amare])
 	{
-	dest++;
+		amare++;
 	}
-	while (*src != '\0')
+
+
+	for (a = 0; src[a] != 0; a++)
 	{
-	*dest = src++;
+		dest[amare] = src[a];
+		amare++;
 	}
-	*dest = '\0';
+
+	dest[amare] = '\0';
 	return (dest);
 }
