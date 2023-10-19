@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	char dest{100} = "Hello, ";
+	char dest[100] = "Hello, ";
 	char src[] = "world!";
 
 	src[4] = '\0';
 	_strncat(dest, src, 5);
-	print("%s\n", dest);
+	printf("%s\n", dest);
 
 	return (0);
 }
