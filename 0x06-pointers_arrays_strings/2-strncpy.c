@@ -3,6 +3,7 @@
  * _strncpy - copy an inputted no
  * @dest: the one to stor the strint copy
  * @src: the string
+ * @a: maximum number
  * Return: the rusulting string
  */
 char *_strncpy(char *dest, char *src, int a)
