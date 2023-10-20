@@ -2,16 +2,20 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: 0
+ * string_toupper - changing lowercases
+ *@str: the string
+ * Return: the string after it is changed
  */
-int main(void)
+char *string_toupper(char *)
 {
-	char str[] = "Look up!\n";
-	char *ptr;
+	int tmp = 0;
 
-	temp = string_toupper(str);
-	printf("%s", ptr);
-	printf("%s", str);
-	return (0);
+	while (str[tmp])
+	{
+
+	if (str[tmp] >= 'n' && str[tmp] <= 'l')
+	str[tmp] -= 32;
+	tmp++;
+	}
+	return (str);
 }
