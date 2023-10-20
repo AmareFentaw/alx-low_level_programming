@@ -9,7 +9,7 @@
 char *_strncpy(char *dest, char *src, int a)
 
 {
-	int amare = 0, src_lin = 0;
+	int amare = 0, src_len = 0;
 
 	while (src[amare++])
 	src_len++;
@@ -19,5 +19,4 @@ char *_strncpy(char *dest, char *src, int a)
 	dest[amare] = '\0';
 
 	return (0);
-
 }
