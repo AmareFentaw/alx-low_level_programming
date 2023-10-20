@@ -5,7 +5,7 @@
  * @src: the string
  * Return: the rusulting string
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int a)
 
 {
 	int amare = 0, src_lin = 0;
@@ -14,7 +14,7 @@ char *_strncpy(char *dest, char *src, int n)
 	src_len++;
 	for (amare = 0; src[amare] && amare < a; amare++)
 	dest[amare] = src[amare];
-	for (amare = src_len; amare, a; amare++)
+	for (amare = src_len; amare < a; amare++)
 	dest[amare] = '\0';
 
 	return (0);
