@@ -1,18 +1,19 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 
 /**
- * main - concatenate that is not null-terminated
- * Return: 0
+ * _strncat - concatenate that is not null-terminated
+ * @dest: string
+ * @src: anotehr string
+ * @w: number of bytes
+ * Return: resultint string dest
  */
-int main(void)
+char *_strncat(char *dest, char *src, int w)
 {
-	char dest[100] = "Hello, ";
-	char src[] = "world!";
+	int amare = 0, dest_len = 0;
 
-	src[4] = '\0';
-	_strncat(dest, src, 5);
-	printf("%s\n", dest);
-
-	return (0);
+	while (dest[amare++])
+	dest_len++;
+	for (amare = 0; src[amare] && amare < w; amare++)
+	dest[dest_len++] = src[amare];
+	return (dest);
 }
