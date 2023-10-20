@@ -2,15 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: 0
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
 	char str[] = "Look up!\n";
 	char *ptr;
-
-	temp = string_toupper(str);
+	
+	ptr = string_toupper(str);
 	printf("%s", ptr);
 	printf("%s", str);
 	return (0);
