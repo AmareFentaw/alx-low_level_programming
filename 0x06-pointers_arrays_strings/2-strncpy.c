@@ -8,7 +8,7 @@
 int main(void)
 {
 	int a;
-	int l[];
+	int l[5];
 	int *p;
 
 	l[2] = 1024;
