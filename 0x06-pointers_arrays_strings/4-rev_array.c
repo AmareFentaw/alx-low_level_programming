@@ -12,7 +12,7 @@ void reverse_array(int *a, int n)
 {
 	int amare, remedan;
 
-	for (remeda = n - 1; remedan >= n / 2; remedan--)
+	for (remedan = n - 1; remedan >= n / 2; remedan--)
 	{
 	amare = a[n - 1 - remedan];
 	a[n - 1 - remedan] = a[remedan];
