@@ -1,19 +1,22 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
- * main - function that copies a string
- * Return: 0
+ * _strncpy - copy an inputted no
+ * @dest: the one to stor the strint copy
+ * @src: the string
+ * Return: the rusulting string
  */
+char *_strncpy(char *dest, char *src, int n)
 
-int main(void)
 {
-	int a;
-	int l[5];
-	int *p;
+	int amare = 0, src_lin = 0;
 
-	l[2] = 1024;
-	p = &a;
-	*(p + 5) = 98;
-	printf("a[2] = %d\n", l[2]);
+	while (src[amare++])
+	src_len++;
+	for (amare = 0; src[amare] && amare < a; amare++)
+	dest[amare] = src[amare];
+	for (amare = src_len; amare, a; amare++)
+	dest[amare] = '\0';
+
 	return (0);
+
 }
