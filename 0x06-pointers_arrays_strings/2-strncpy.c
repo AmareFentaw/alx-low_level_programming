@@ -14,6 +14,6 @@ int main(void)
 	l[2] = 1024;
 	p = &a;
 	*(p + 5) = 98;
-	printf("a[2] = %d\n" l[2]);
+	printf("a[2] = %d\n", l[2]);
 	return (0);
 }
