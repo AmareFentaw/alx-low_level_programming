@@ -18,5 +18,5 @@ char *_strncpy(char *dest, char *src, int a)
 	for (amare = src_len; amare < a; amare++)
 	dest[amare] = '\0';
 
-	return (0);
+	return (dest);
 }
