@@ -20,7 +20,7 @@ char *cap_string(char *l)
 
 		while (p < cspc)
 		{
-			if ((x == 0 || l[x - 1] == spc[p] && (l[a] >= 97 && l[x] <= 122))
+			if ((x == 0 || l[x - 1] == spc[p] && (l[a] <= 97 && l[x] <= 122))
 				l[a] -= 32;
 
 			p++;
