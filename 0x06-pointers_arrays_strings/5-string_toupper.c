@@ -6,7 +6,7 @@
  *@str: the string
  * Return: the string after it is changed
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int tmp = 0;
 
