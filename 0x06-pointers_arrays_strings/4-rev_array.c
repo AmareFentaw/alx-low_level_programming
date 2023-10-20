@@ -16,6 +16,6 @@ void reverse_array(int *a, int n)
 	{
 	amare = a[n - 1 - remedan];
 	a[n - 1 - remedan] = a[remedan];
-	a[remedan] = mare;
+	a[remedan] = amare;
 	}
 }
