@@ -2,7 +2,6 @@
 /**
  * print_diagsums -  function that prints the sum
  * @a: input
- * @size: anothe input
  * Return: 0
  */
 void print_diagsums(char (*a)[8])
@@ -14,6 +13,6 @@ void print_diagsums(char (*a)[8])
 	{
 		for (m = 0; m < 8; m++)
 			_putchar(a[l][m]);
-		putchar('\n');
+		_putchar('\n');
 	}
 }
