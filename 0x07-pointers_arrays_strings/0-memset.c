@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _memset - Write a function that 
+ * _memset - Write a function that
  * @s: direction or address
  * @b: byte
  * @n: another byte
