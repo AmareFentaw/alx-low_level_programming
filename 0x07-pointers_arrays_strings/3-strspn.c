@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdil.h>
+#include <stdio.h>
 /**
  * _strspn - Write a function that gets the length of a prefix.
  * @s: ..
