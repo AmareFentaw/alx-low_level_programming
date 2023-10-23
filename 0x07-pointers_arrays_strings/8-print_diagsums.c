@@ -8,15 +8,12 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int l, m;
-
-	amare = 0;
-	dani = 0;
+	int l, m, amare = 0, dani = 0;
 
 	for (l = 0; l <= (size * size); l = l + size + 1)
 		amare = amare + a[l];
 
-	for (n = size - 1; m <= (size * size) - size; m = m + size - 1)
+	for (m = size - 1; m <= (size * size) - size; m = m + size - 1)
 		dani = dani + a[m];
 	printf("%d, %\n", amare, dani);
 }
