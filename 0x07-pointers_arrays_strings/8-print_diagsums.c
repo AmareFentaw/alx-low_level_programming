@@ -1,18 +1,22 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_diagsums -  function that prints the sum
  * @a: input
+ * @size: another input
  * Return: 0
  */
-void print_diagsums(char (*a)[8])
+void print_diagsums(int *a, int size)
 {
 	int l, m;
 
+	amare = 0;
+	dani = 0;
 
-	for (l = 0; l < 8; l++)
-	{
-		for (m = 0; m < 8; m++)
-			_putchar(a[l][m]);
-		_putchar('\n');
-	}
+	for (l = 0; l <= (size * size); l = l + size + 1)
+		amare = amare + a[l];
+
+	for (n = size - 1; m <= (size * size) - size; m = m + size - 1)
+		dani = dani + a[m];
+	printf("%d, %\n", amare, dani);
 }
