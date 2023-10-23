@@ -13,9 +13,11 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s)
 	{
 		if (!strchr(accept, *s))
+		{
 		break;
 	}
 	s++;
 	n++;
+	}
 	return (n);
 }
