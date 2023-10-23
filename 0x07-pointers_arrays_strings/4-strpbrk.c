@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <string.h>
 /**
  * _strpbrk - Write a function that searches a string for any of a set of bytes
  * @s: one input
