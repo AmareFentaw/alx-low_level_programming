@@ -15,5 +15,5 @@ void print_diagsums(int *a, int size)
 
 	for (m = size - 1; m <= (size * size) - size; m = m + size - 1)
 		dani = dani + a[m];
-	printf("%d, %\n", amare, dani);
+	printf("%d, %d\n", amare, dani);
 }
