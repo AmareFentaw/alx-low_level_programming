@@ -5,7 +5,7 @@
  * @size: anothe input
  * Return: 0
  */
-void print_diagsums(int *a, int size)
+void print_diagsums(char (*a)[8])
 {
 	int l, m;
 
